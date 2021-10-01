@@ -184,7 +184,7 @@ color: white;
   justify-content: column; */
 }
 /* navbar media query start here */
-@media (max-width: 1199px) {
+@media (max-width: 991px) {
   body{
     z-index: -1;
     position: relative;
@@ -216,6 +216,7 @@ color: white;
     background-color:black;
     left: 0;
     width: 100vw;
+    top: 137px;
     height: 100vh;
     position: absolute;
     z-index: 999;

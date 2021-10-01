@@ -75,3 +75,9 @@
     height: 807px;
 
 }
+@media (max-width: 991px){
+    .about_wrapper {
+        display: inline;
+        justify-content: center;
+    }
+}

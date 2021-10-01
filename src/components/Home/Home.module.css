@@ -12,7 +12,6 @@
   .homeContent h6 {
     color: white;
     font-size: 41px;
-    margin-top: 150px;
     font-family: PoppinsLight, sans-serif;
   }
   .homeContent p {
@@ -106,14 +105,55 @@
       text-decoration: none;
   }
 
-  @media (max-width: 1199px){
-    .imgWrapper{
-      display: none;
+  @media (max-width: 991px){
+    .homeWrapper {
+      display: inline;
     }
-    .homeContent{
+    .imgWrapper img{
+      width: 600px !important;
+      margin-left: 32% !important;
+    }
+    .homeContent h6 {
+      color: white;
+      font-size: 35px;
+      font-family: PoppinsLight, sans-serif;
+      text-align: center;
+    }
+    .homeContent h1 {
+      color: white;
+      font-size: 100px;
+      font-family: PoppinsBold, sans-serif;
+      line-height: 1.1;
+      text-align: center;
+      margin-left: 5%;
+    }
+    .homeContent p {
+      color: white;
+      font-size: 26px;
+      margin-top: 15px;
+      font-family: PoppinsLight, sans-serif;
+    }
+    .homeBtnPosition{
+      display: flex;
+  }
+  .hireMe{
+    padding: 15px 105px;
+    border-radius: 60px;
+    border: 2px solid white;
+    background-color: #ff0513;
+    color: white;
+    transition: 0.2s ease-in-out;
+    font-family: PoppinsMedium, sans-serif;
+    background: transparent;
+    font-size: 30px;
+    margin-right: 20px;
+
+}
+    /* .homeContent{
       width: 100%;
     }
     .homeImage{
       display: none;
-    }
+    } */
   }
+  
