@@ -70,7 +70,7 @@ export default function Navbar() {
                   <button>Get Started</button>
                 </li>
               </ul>
-              <button className={Styles.hmbrgrBtn} onClick={handleBurgerBtn}>
+              <button className={hamburgerBtn===false? Styles.hmbrgrBtn:Styles.hmbrgrBtnClose} onClick={handleBurgerBtn}>
                 <span className={Styles.topbar}></span>
                 <span className={Styles.midbar}></span>
                 <span className={Styles.bottombar}></span>
@@ -124,7 +124,9 @@ export default function Navbar() {
                       Contact
                     </Link>
                   </li>
-
+                  <li>
+                  <button>Get Started</button>
+                </li>
                  
                 </ul>
                 </div>

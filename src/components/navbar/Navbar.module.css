@@ -62,6 +62,7 @@
   background-color: white;
   border:2px solid gray;
 }
+/* hamburger menu and  button css */
 .hmbrgrBtn{
   display: none;
   width: 60px;
@@ -70,7 +71,9 @@
   background-color: transparent;
   right: 10px;
   border: none;
+  transition: all .3s ease-in-out;
 }
+
 .topbar{
   position: absolute;
   border: 3px solid white;
@@ -78,6 +81,7 @@
   border-radius: 1px;
   top: 10px;
   right: 2px;
+  transition: all .3s ease-in-out;
 }
 .midbar{
   position: absolute;
@@ -86,6 +90,7 @@
   border-radius: 1px;
   right: 2px;
   top: 26px;
+  transition: all .3s ease-in-out;
  
 }
 .bottombar{
@@ -94,9 +99,85 @@ border: 3px solid white;
 width: 50px;
 border-radius: 1px;
 right: 2px;
+transition: all .3s ease-in-out;
 top: 42px;
 
 }
+.hamBurgerlist li{
+  list-style: none;
+font-family: PoppinsMedium, sans-serif;
+padding: 30px;
+background-color:transparent;
+display: flex;
+justify-content: center;
+
+color: white;
+}
+
+.hamBurgerlist li:hover{
+  background-color: #ff0513;
+}
+.hamBurgerlist li a{
+  text-decoration: none;
+  color: white;
+}
+.hamBurgerlist li button {
+  font-family: PoppinsLight, sans-serif;
+  font-size: 22px;
+  padding: 20px 40px;
+  border-radius: 60px;
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  margin-left: 22px;
+}
+.hamBurgerlist li button:hover{
+  color: gray;
+  background-color: white;
+  border:2px solid gray;
+}
+/* close button */
+.hmbrgrBtnClose{
+  display: none;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  background-color: transparent;
+  right: 10px;
+  border: none;
+  transition: all .3s ease-in-out;
+}
+.hmbrgrBtnClose .topbar{
+  position: absolute;
+  border: 3px solid white;
+  width: 50px;
+  border-radius: 1px;
+  top: 10px;
+  right: 2px;
+  transform: rotate(50deg);
+  transition: all .3s ease-in-out;
+}
+.hmbrgrBtnClose .midbar{
+  position: absolute;
+  border: 3px solid white;
+  width: 50px;
+  border-radius: 1px;
+  top: 10px;
+  right: 2px;
+  display: none;
+  transition: all .3s ease-in-out;
+}
+.hmbrgrBtnClose .bottombar{
+  position: absolute;
+  border: 3px solid white;
+  width: 50px;
+  border-radius: 1px;
+  top: 10px;
+  right: 2px;
+  transform: rotate(-50deg);
+  transition: all .3s ease-in-out;
+}
+/* .............. */
 .hamBurgerlist{
   display: none;
   /* display: flex;
@@ -122,17 +203,13 @@ top: 42px;
     display: block;
  
   }
-
+  .hmbrgrBtnClose{
+    display: block;
+ 
+  }  
   .hamBurgerlist{
    display: block;
-   /* z-index: 999;
-   position: absolute; */
-   /* height: 500px; */
-   /* left: 0; */
-   /* top: 90px; */
-   /* width: 100vw;
-   transition: width 2s, height 2s;
-   padding: 100px 0px; */
+ 
   }
   .hamburgerMenu{
   
@@ -143,24 +220,7 @@ top: 42px;
     position: absolute;
     z-index: 999;
   }
-  .hamBurgerlist li{
-    list-style: none;
-  font-family: PoppinsMedium, sans-serif;
-  padding: 25px;
-  background-color:transparent;
-  display: flex;
-  justify-content: center;
   
-  color: white;
-  }
-  
-  .hamBurgerlist li:hover{
-    background-color: #ff0513;
-  }
-  .hamBurgerlist li a{
-    text-decoration: none;
-    color: white;
-  }
   
   
 }
