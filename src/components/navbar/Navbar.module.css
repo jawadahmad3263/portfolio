@@ -1,0 +1,166 @@
+.section_Navbar {
+  background-color: #0e0c38;
+  height: 137px;
+
+}
+.navbarPosition{
+  position: relative;
+}
+.imgStyle img{
+  width: 590px;
+  height: 263px;
+}
+.imgStyle{
+  position: absolute;
+  top: 0;
+  left: 395px;
+}
+.navbarWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logoStyle img {
+  width: 265px;
+  height: 137px;
+}
+
+.listStyle {
+  display: flex;
+  align-items: center;
+}
+.listStyle li {
+  list-style: none;
+  font-family: PoppinsMedium, sans-serif;
+}
+.listStyle li a {
+  color: white;
+  padding: 50px 15px 20px;
+  text-decoration: none;
+  font-size: 22px;
+  transition: 0.2s ease;
+  
+}
+.listStyle li a:hover {
+  background-color: #ff0513;
+}
+
+.listStyle li button {
+  font-family: PoppinsLight, sans-serif;
+  font-size: 22px;
+  padding: 20px 40px;
+  border-radius: 60px;
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  margin-left: 22px;
+}
+.listStyle li button:hover{
+  color: gray;
+  background-color: white;
+  border:2px solid gray;
+}
+.hmbrgrBtn{
+  display: none;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  background-color: transparent;
+  right: 10px;
+  border: none;
+}
+.topbar{
+  position: absolute;
+  border: 3px solid white;
+  width: 50px;
+  border-radius: 1px;
+  top: 10px;
+  right: 2px;
+}
+.midbar{
+  position: absolute;
+  border: 3px solid white;
+  width: 50px;
+  border-radius: 1px;
+  right: 2px;
+  top: 26px;
+ 
+}
+.bottombar{
+position: absolute;
+border: 3px solid white;
+width: 50px;
+border-radius: 1px;
+right: 2px;
+top: 42px;
+
+}
+.hamBurgerlist{
+  display: none;
+  /* display: flex;
+  justify-content: column; */
+}
+/* navbar media query start here */
+@media (max-width: 1199px) {
+  body{
+    z-index: -1;
+    position: relative;
+    /* transition: 1s ease; */
+  }
+  .imgStyle{
+    display: none;
+  }
+   .list-style{
+     display: none;
+   }
+   .listStyle li {
+   display: none;
+  }
+  .hmbrgrBtn{
+    display: block;
+ 
+  }
+
+  .hamBurgerlist{
+   display: block;
+   /* z-index: 999;
+   position: absolute; */
+   /* height: 500px; */
+   /* left: 0; */
+   /* top: 90px; */
+   /* width: 100vw;
+   transition: width 2s, height 2s;
+   padding: 100px 0px; */
+  }
+  .hamburgerMenu{
+  
+    background-color:black;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 999;
+  }
+  .hamBurgerlist li{
+    list-style: none;
+  font-family: PoppinsMedium, sans-serif;
+  padding: 25px;
+  background-color:transparent;
+  display: flex;
+  justify-content: center;
+  
+  color: white;
+  }
+  
+  .hamBurgerlist li:hover{
+    background-color: #ff0513;
+  }
+  .hamBurgerlist li a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+}

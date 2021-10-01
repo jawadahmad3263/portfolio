@@ -1,0 +1,54 @@
+
+
+.cardStyle{
+    width: 30%;
+    margin-bottom: 50px;
+    margin-left: 35px;
+    height: 510px; 
+    position: relative;
+    overflow: hidden;
+   
+    transition:  all .3s ease-in-out;
+}
+.cardStyle:hover{
+    transform: scale(1.05);
+    transform-origin:bottom;
+}
+
+.cardStyle  img {
+        height: 510px; 
+    }
+
+    .overlay{
+        position: absolute;
+        width: 96.4%;
+        border-radius: 35px;
+        height: 100%;
+        top: 0;
+        left: 0; 
+        background-color: red;
+        opacity: 0;
+        transition:  all .3s ease-in;
+    }
+        .overlay:hover{
+            display: block;
+            opacity: .6;
+        }
+
+        .overlay_content{
+            position: absolute;
+            left: 30px;
+            bottom: 30px;}
+            .overlay  h2{
+                font-size: 44px;
+            
+                max-width: 230px;
+                color: white;
+            }
+         
+            p{
+                font-size: 25px;
+                margin-top: 17px;
+                color: white;
+            }
+        

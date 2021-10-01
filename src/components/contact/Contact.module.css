@@ -1,0 +1,107 @@
+.section_contact{
+    background-color: #040B33;
+    padding: 180px 0px;
+    position: relative;
+   
+
+}
+.section_contact::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 170px;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    background-color: rgb(220, 53, 69);
+}
+
+
+.contact_wrapper {
+    width: 1600px;
+    margin: 0px auto;
+}
+
+.contact_info h2{
+    font-size: 60px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-family: PoppinsSemiBold, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.4;
+}
+.contact_info p{
+     font-size: 22px;
+     width:62%;
+     line-height: 1.8;
+     margin-left: auto;
+     margin-right: auto;
+     height: 5px;
+     margin-top: 34px;
+     color: white;
+     text-align: center;
+    font-family: PoppinsLight, sans-serif;
+}
+.form{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1238px;
+    padding: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.form input{
+    margin-left: 25px;
+    width: 594px;
+    margin-right: 25px;
+    padding: 25px;
+    
+    margin-bottom: 50px;
+
+}
+.form_insideWrap{
+    display: flex;
+    justify-content: center;
+}
+/* */
+
+.form input::placeholder{
+    font-size: 25px;
+}
+textarea{
+    width: 1238px;
+    padding: 25px;
+    
+}
+textarea::placeholder{
+    font-size: 25px;
+}
+.formBtnDiv{
+display: flex;
+justify-content: center;
+margin-top: 40px;
+}
+
+.form_Btn{
+    border: 2px solid white;
+    border-radius: 60px;
+    height: 91px;
+    width: 300px;
+    font-size: 30px;
+    font-family: Regular,sans-serif;
+    background: transparent;
+    color: white;
+}
+.form_Btn:hover{
+    background-color:rgb(248, 0, 0) ;
+    color: white;
+    border: 2px solid gray;
+}

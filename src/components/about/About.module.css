@@ -1,0 +1,77 @@
+.sectionAbout {
+    background-color: #040221;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.about_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.about_content {
+    margin-top: 130px;
+    width: 50%;
+}
+
+.about_content h2 {
+
+    font-size: 60px;
+    margin-bottom: 35px;
+    font-family: PoppinsSemiBold, sans-serif;
+}
+
+.about_content p {
+    font-size: 24px;
+    margin-bottom: 45px;
+    line-height: 1.5;
+    width: 95%;
+    font-family: PoppinsLight, sans-serif;
+}
+
+.cv_Btn {
+    border: 2px solid white;
+    border-radius: 60px;
+    height: 91px;
+    width: 300px;
+    font-size: 30px;
+    font-family: Regular, sans-serif;
+    background: transparent;
+    color: white;
+}
+
+.cv_Btn:hover {
+    background-color: white;
+    color: gray;
+    border: 2px solid gray;
+}
+
+.aboutPictureDiv {
+    position: relative;
+    height: 955px;
+    width: 855px;
+    z-index: 1;
+    width: 50%;
+    background-color: #0E0C38;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.aboutPictureDiv::before {
+    position: absolute;
+    left: -40%;
+    top: 18%;
+    z-index: -1;
+    content: "";
+    width: 40%;
+    height: 2px;
+    background-color: rgb(220, 53, 69);
+}
+
+.aboutPictureDiv img {
+    width: 723px;
+    height: 807px;
+
+}

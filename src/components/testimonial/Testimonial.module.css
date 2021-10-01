@@ -1,0 +1,145 @@
+.testimonialSection{
+    background-color: #040221;
+    padding-top: 170px;
+    padding-bottom: 200px;
+}
+
+
+.testimonialHeading h2{
+    font-size: 60px;
+    font-family: PoppinsSemiBold, sans-serif;
+   position: relative;
+   margin-bottom: 90px;
+    text-align: center;
+    color: white;
+}
+.testimonialHeading h2::after{
+    content: "";
+    width: 360px;
+    height: 2px;
+    background-color: rgb(255, 5, 19);
+    display: inline-block;
+    margin-left: 15px;
+    position: absolute;
+    bottom: 0px;
+    left: 49%;
+    top: 125px;
+    transform: translateX(-50%);
+}
+.testimonialHeading p{
+    font-size: 30px;
+    text-align: center;
+    font-family: PoppinsLight, sans-serif;
+    margin-left: auto;
+    color: white;
+    margin-right: auto;
+ 
+
+}
+.clientsWrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 140px;
+
+
+}
+.imgWrapper{
+    width: 45%;
+    background-image: url("./mapImage/map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    margin-right: 5%;
+
+}
+.imgWrapper img:hover{
+    border-radius: 50%;
+    border: 3px solid red;
+
+}
+.imgWrapper .img1 img{
+    position: absolute;
+     left: 30px;
+     top: 20px;
+     width: 130px;
+}
+
+
+.imgWrapper .img2 img{
+    position: absolute;
+    bottom: -3px;
+    right: 66px;
+    width: 130px;
+}
+.imgWrapper .img3 img{
+    position: absolute;
+    top: 205px;
+    left: 172px;
+}
+.imgWrapper .img4 img{
+    position: absolute;
+    right: 56px;
+    top: -46px;
+    width: 135px;
+}
+   
+.imgWrapper .img5 img{
+    position: absolute;
+    bottom: -66px;
+    width: 135px;
+    left: 318px;
+}
+
+.imgWrapper .img6 img{
+    position: absolute;
+    top: 112px;
+    left: 370px;
+    width: 80px;
+
+}
+
+
+
+
+
+.clientsRewiews{
+    width: 45%;
+    margin-left: 5%;
+}
+.clientsRewiews p{
+    font-size: 30px;
+    font-family: PoppinsLight, sans-serif;
+    color: white;
+    width: 87%;
+    position: relative;
+}
+.clientsRewiews .para::after{
+    position: absolute;
+    content: "''";
+    font-style: italic;
+    bottom: -248px;
+    color: #ff0513;
+    font-size: 200px;
+    left: 259px;
+}
+.clientsRewiews .para::before{
+    position: absolute;
+    content: "''";
+    font-style: italic;
+    top: -126px;
+    color: #ff0513;
+    left: -38px;
+    font-size: 200px;
+}
+.para2{
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: PoppinsMedium, sans-serif;
+
+}
+
+.para3{
+    font-size: 22px;
+    font-family: PoppinsLight, sans-serif;
+}

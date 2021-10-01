@@ -1,0 +1,48 @@
+
+.section_portfolio{
+    background-color: #040221;
+    padding: 200px 0px;
+    }
+    .tabs_wrapper{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .button_wraper{
+        display: flex;
+        flex-direction: row;
+        padding: 0px 30px 30px 0px ;
+    }
+    
+    .tabs_btn{
+       background:transparent;
+       color: white;
+       font-size: 30px;
+        border:  none;
+        font-family: PoppinsLight, sans-serif;
+        padding: 20px;
+        margin: 0px 30px 0px 0px;
+    }
+    .tabs_btn:hover{
+        color: #ff0b0b;
+    }
+    .title h2{
+         font-size: 50px;
+         font-family: PoppinsLight,sans-serif;
+         color: white;
+         margin-bottom: 30px;
+    }
+    .title h2::after{
+        content: "";
+        width: 230px;
+        height: 2px;
+        background-color: #FF0513;
+        display: inline-block;
+        margin-left: 15px;
+    
+        margin-bottom: 15px;
+    
+    
+    }
+    
+    

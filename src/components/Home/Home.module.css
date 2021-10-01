@@ -1,0 +1,119 @@
+.homeSection {
+    background-color: #0e0c38;
+  }
+  .homeWrapper {
+    display: flex;
+  }
+  .homeContent {
+    width: 50%;
+    position: relative;
+    z-index: 1;
+  }
+  .homeContent h6 {
+    color: white;
+    font-size: 41px;
+    margin-top: 150px;
+    font-family: PoppinsLight, sans-serif;
+  }
+  .homeContent p {
+    color: white;
+    font-size: 26px;
+    margin-top: 15px;
+    font-family: PoppinsLight, sans-serif;
+  }
+  .homeContent p span {
+    color: #ff0513;
+  }
+  .homeContent h1 {
+    color: white;
+    font-size: 150px;
+    font-family: PoppinsBold, sans-serif;
+    width: 100%;
+    margin-left: -10px;
+    line-height: 1.1;
+  }
+  .imgWrapper {
+    width: 50%;
+  }
+  .homeImage{
+      position: absolute;
+      top: 204px;
+      left: -280px;
+      z-index: -1;
+  }
+  .homeImage img{
+      width: 574px;
+      height: 547px;
+  }
+  .homeBtnPosition{
+      margin-top: 40px;
+  }
+   .hireMe{
+      padding: 30px 90px;
+      border-radius: 60px;
+      border: 2px solid white;
+      background-color: #ff0513;
+      color: white;
+      transition: 0.2s ease-in-out;
+      font-family: PoppinsMedium, sans-serif;
+      background: transparent;
+      font-size: 30px;
+      margin-right: 20px;
+  
+  }
+  .hireMe:hover{
+    background-color: #ff0513;
+    border:2px solid red;
+  }
+  .portfolioBtn{
+      transition: 0.2s ease-in-out;
+      padding: 30px 90px;
+      border-radius: 60px;
+      border: 2px solid white;
+      color: white;
+      font-family:  PoppinsMedium, sans-serif;
+      font-size: 30px;
+      background: transparent;
+      margin-right: 40px;
+    
+  }
+  .portfolioBtn:hover{
+      background-color: white;
+      color: gray;
+     
+  }
+  .findme{
+  margin-top: 30px;
+  }
+  
+  .socialStyle{
+      display: flex;
+      margin-top: 10px;
+  }
+  .socialStyle li{
+      list-style: none;
+      padding:20px 40px 20px 0px ;
+  
+  }
+ .iconsCss{
+  color:white; 
+  font-size:48px;
+ }
+ .iconsCss:hover{
+   color: red;
+ }
+  .socialStyle li a{
+      text-decoration: none;
+  }
+
+  @media (max-width: 1199px){
+    .imgWrapper{
+      display: none;
+    }
+    .homeContent{
+      width: 100%;
+    }
+    .homeImage{
+      display: none;
+    }
+  }
